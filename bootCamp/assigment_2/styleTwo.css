@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(59, 53, 53);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4.5rem;
+    font-size:3rem;
+}
+nav{
+    background-color: rgb(145, 138, 138);
+    height: 10rem;
+}
+section{
+    flex-direction: row;
+    display: flex;
+    margin: 2rem;
+}
+main{
+    flex-direction: row;
+    display: flex;
+}
+
+article{
+    display: flex;
+    /* it works in the first and when i give the section row it doesnt work any more so what is the key */
+    flex-direction: column!important;
+    width: 6rem;
+    height: 3rem;
+    background-color: rgb(151, 141, 141);
+    margin: 1rem;
+}
+aside{
+    display: flex;
+    width: 20%;
+    height: 90%;
+    background-color: rgb(145, 138, 138);
+    flex-direction: column;
+}
+h3{
+    /* justify-content: center; */
+}
+footer{
+    background-color: rgb(145, 138, 138);
+    width: 100%;
+    height: 1.5rem;
+    text-align: center;
+}
